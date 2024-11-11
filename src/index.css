@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'flowbite';
+
+*{
+    font-family: "Roboto", serif;
+}
+.bg-custom {
+    background-image: url('https://htmldemo.net/jena/jena/assets/img/category/10.webp');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    border-radius:2px;
+}
+.bg-garlic {
+    background-image: url('https://htmldemo.net/jena/jena/assets/img/category/11.webp');
+    background-size: cover;
+    background-position: center;
+    height: 38vh;
+    border-radius:2px;
+}
+.bg-cabbage {
+    background-image: url('https://htmldemo.net/jena/jena/assets/img/category/12.webp');
+    background-size: cover;
+    background-position: center;
+    height: 38vh;
+    border-radius:2px;
+}
+.bg-juice {
+    background-image: url('https://htmldemo.net/jena/jena/assets/img/category/13.webp');
+    background-size: cover;
+    background-position: center;
+    height: 38vh;
+    border-radius:2px;
+}
+.bg-lemon {
+    background-image: url('https://htmldemo.net/jena/jena/assets/img/category/14.webp');
+    background-size: cover;
+    background-position: center;
+    height: 38vh;
+    border-radius:2px;
+}
+.bg-login{
+    background-image: url('assets/milk.png');
+    background-size: cover;
+    background-position: right;
+    height: 40vh;
+}
+.cas{
+    display: block;
+}
+@media (max-width:764px) {
+    .cas{
+        display: none;
+    }
+    nav{
+        overflow: hidden !important;
+    }
+    .wal{
+        margin-top: 20px;
+    }
+}
